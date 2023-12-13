@@ -54,8 +54,6 @@
       - event_name varchar(100)
       - passport varchar(100)
 
-**Languages Used:**
-- HTML/CSS/JS/PHP
 
 **Framework:**
 - Bootstrap 5 (CSS)
