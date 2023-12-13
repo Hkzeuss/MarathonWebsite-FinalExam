@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+table {
+  font-family: 'Montserrat', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+.no-underline{
+  text-decoration: none;
+}
+
+.table-main{
+  border: 2px solid #f3aaaa;
+}
+
+th, td {
+  border: 1px solid #e6d0d0;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f1ecec;
+}
+
+.section-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.header-background {
+  background-color: #f34343; 
+  padding: 10px; 
+  border-radius: 5px; 
+  color: #ffffff;
+}
+
+.table-main table th,
+.table-main table td {
+  width: 15%; 
+}
+
+
+
+.table-main .male-table th:nth-child(1),
+.table-main .male-table td:nth-child(1) {
+  width: 1%; 
+}
+
+.table-main .male-table th:nth-child(2),
+.table-main .male-table td:nth-child(2) {
+  width: 10%; 
+}
+
+.table-main .male-table th:nth-child(3),
+.table-main .male-table td:nth-child(3) {
+  width: 15%; 
+}
+
+.table-main .male-table th:nth-child(4),
+.table-main .male-table td:nth-child(4) {
+  width: 5%; 
+}
+
+.table-main .male-table th:nth-child(5),
+.table-main .male-table td:nth-child(5) {
+  width: 5%; 
+}
+
+.table-main .male-table th:nth-child(6),
+.table-main .male-table td:nth-child(6) {
+  width: 5%; 
+}  
